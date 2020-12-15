@@ -273,7 +273,7 @@ href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html
 ">女子駅伝部</a></li>
 <li><a>クラブ・サークル活動</a></li>
 </ul>
-</nav> 
+</nav>
 
 
 <!--<h1>イベントハンドラの練習</h1>
@@ -312,18 +312,51 @@ onclick="sayhello();sayhello();">
 <br>
 
 <h1>JavaScriptによるページの変更69</h1>
- <div id="txt1">
-  <input type="button"value="テキストの変更"
-onclick="txtchange1();">
-城西大学</div>
+ 
+<br>
+<div id="txt1" >
+<input type="button" value="テキストの変更" onclick="txtchange69();">城西大学</div>
+
 
 <br>
-
 <h1>JavaScriptによるページの変更610</h1>
- <div id="image1">
-   <input type="button" value="画像の変更" onclick="imgchange1();">
- <img src='./image/ogp.png' id="iogo" alt="josai Logo"></div>
 <br>
+
+<div id="image1" >
+<img src='./image/ogp.png' id="logo" alt="JosaiLogo"></div>
+<input type="button" value="画像の変更" onclick="imgchange610();">
+<input type="button" value="元に戻す" onclick="imgback610();">
+
+<br>
+<h1>タイマーイベントによる実行6-11</h1>
+<br>
+<div id="back">
+<input type="button" value="変更後3秒でまた戻る" onclick="ChangeImageAndBack();">
+<img src='./image/ogp.png' id="img13" alt="Josai Logo" class="imagechange">
+
+<script src="ex07-1.js"></script></head>
+
+<h1>テキスト入力の練習</h1>
+<input type="button" value="あいさつ"onclick="sayhello71();">
+<p>誰？<input type="text" id="who71"></p>
+
+<script src="ex07-3.js"></script></head>
+
+<h1>足し算</h1>
+    <p>
+        <input type="text" id="input1">+<input type="text" id="input2">
+        <input type="button" value="計算" onclick="add();">
+    </p> 
+
+<h1>肥満度</h1>
+    <p>
+        身長<input type="text" id="yM">(メートル)
+        <br>
+        体重<input type="text" id="yKg">(キログラム)
+        <input type="button" value="計算" onclick="bmi();">
+    </p>
+
+</div>
 </body>
 
 
