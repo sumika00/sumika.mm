@@ -325,18 +325,25 @@ onclick="sayhello();sayhello();">
 <br>
 <div id="txt1" >
 <input type="button" value="テキストの変更"
- onclick="txtchange69();">
+ onclick="txtchange1();">
  城西大学</div>
 
-
-<br>
-<h1>JavaScriptによるページの変更610</h1>
-<br>
-
 <div id="image1" >
-<img src='./image/ogp.png' id="logo" alt="JosaiLogo"></div>
-<input type="button" value="画像の変更" onclick="imgchange610();">
-<input type="button" value="元に戻す" onclick="imgback610();">
+    <input type="button" value="画像の変更"
+     onclick="imgchange1();">
+     <img src='./image/ogp.png' id="logo" alt="JosaiLogo">
+    </div>
+
+<form name="timer">
+    <input type="button" value="スタート"
+     onclick="startfnc()">
+     <br>
+      <input type="text" name="moji" size="30" 
+    value=""> </form>
+
+<form> <input type="button" value="Timer" 
+    onclick="setTimeout('mes()',3000)"> </form>
+
 
 <br>
 <h1>タイマーイベントによる実行6-11</h1>
@@ -347,10 +354,10 @@ onclick="sayhello();sayhello();">
 
 
 <h1>テキスト入力の練習</h1>
-<input type="button" value="あいさつ"onclick="sayhello71();">
-<p>誰？<input type="text" id="who71"></p>
+<input type="button" value="あいさつ"
+onclick="sayhello71();">
+<p>誰？<input type="text" id="who"></p>
 
-<script src="ex07-3.js"></script></head>
 
 <h1>足し算</h1>
     <p>
